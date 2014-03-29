@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<SomethingDigital_RecentWishlist>
+			<active>true</active>
+			<codePool>community</codePool>
+			<depends>
+				<Mage_Wishlist />
+			</depends>
+		</SomethingDigital_RecentWishlist>
+	</modules>
+</config>

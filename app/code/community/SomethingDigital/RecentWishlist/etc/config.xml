@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <SomethingDigital_RecentWishlist>
+             <version>1.0.0</version>
+        </SomethingDigital_RecentWishlist>
+    </modules>
+    <global>
+        <blocks>
+            <recentwishlist>
+                <class>SomethingDigital_RecentWishlist_Block</class>
+            </recentwishlist>
+        </blocks>
+    </global>
+	<frontend>
+		<layout>
+			<updates>
+				<recentwishlist>
+				   <file>recentwishlist.xml</file>
+				</recentwishlist>
+			</updates>
+		</layout>
+	</frontend>
+</config>
