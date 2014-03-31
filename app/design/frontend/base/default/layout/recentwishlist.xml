@@ -2,7 +2,8 @@
 <layout version="0.1.0">
     <customer_account_index>
         <reference name="customer_account_dashboard">
-            <block type="recentwishlist/customer_recent" name="customer_account_dashboard_wishlist" as="top" template="recentwishlist/customer/recent.phtml">
+			<action method="setTemplate"><template>recentwishlist/account/dashboard.phtml</template></action>
+            <block type="recentwishlist/customer_recent" name="customer_account_dashboard_wishlist" as="top1" template="recentwishlist/customer/recent.phtml">
 			    <action method="setTitle" translate="title">
                     <title>Faves</title>
                 </action>
